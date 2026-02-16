@@ -1,0 +1,98 @@
+<!--Column Span -->
+<table border ="1">
+    <caption>Data Pengunjung</caption> <!--Judul Tabel-->
+    <tr>
+        <th>Nama</th>
+        <th>Umur</th>
+        <th>Asal</th>
+    </tr>
+    <tr>
+        <td colspan ="2">Alice</td>
+    </tr>
+    <tr>
+        <td>Bob</td>
+        <td colspan ="2">25</td>
+        <td>Bandung</td>
+    </tr>
+</table>
+
+<p>==================================================================</p>
+
+<head>Row Span</head>
+<!--Row Span -->
+<table border="1">
+  <tr>
+    <th rowspan="3">18:00</th>
+    <td>Avenger Infinity Wars</td>
+  </tr>
+  <tr>
+    <td>One Piece: Stampede</td>
+  </tr>
+  <tr>
+    <td>Gundala</td>
+  </tr>
+</table>
+
+<p>==================================================================</p>
+
+<h2>Masalah Input Elemen</h2>
+
+<div>
+  <label for ="nama">Name: </label><br>
+  <input type="text" id="nama" placeholder="John Dae" required/>
+</div>
+<div>
+  <label for="phone">No. HP:</label><br>
+  <input type="tel" id="phone" placeholder="081234567890" required/>
+</div>
+<div>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" placeholder="example@gmail.com" required/>
+</div>
+<div>
+  <label for="password-input">Password:</label><br>
+  <input type="password" id="password-input" placeholder="***********" required/>
+</div>
+<div>
+    <label for="date-input">Birth Date:</label> <br>
+    <input type="date" id="date-input"/>
+</div>
+<div>
+    <label for="color-input">Color:</label><br>
+    <input type="color" id="color-input"/>
+</div>
+<div>
+    <label for="time-input">Time: </label> <br>
+    <input type="time" id="time-input"/>
+</div>
+<div>
+  <label for="pria">Pria</label>
+  <input type="radio" id="pria" name="gender" value="pria" />
+  
+  <label for="wanita">Wanita</label>
+  <input type="radio" id="wanita" name="gender" value="wanita" />
+</div>
+<div>
+  <label for="setuju">
+    <input type="checkbox" id="setuju" /> Saya setuju dengan syarat dan ketentuan
+  </label>
+</div>
+<div>
+    <label for="jumlah">Jumlah (1-10):</label>
+    <input type="range" id="jumlah" min="1" max="10"/>
+</div>
+<div>
+    <label for="file-upload">File Upload:</label>
+    <input type="file" id="file-upload"/>
+</div>
+<div>
+  <label for="website">Website:</label><br>
+  <input type="url" id="website" />
+</div>
+<div>
+    Submit:
+    <input type="submit" value="Kirim"/>
+</div>
+
+<p>==================================================================</p>
+
